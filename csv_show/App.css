@@ -1,0 +1,82 @@
+.row{
+  margin: 0 !important;
+}
+label.filter-label {
+    display: block;
+    width: 100%;
+    margin-left: 34%;
+    height: 0px;
+    margin-top: -14px;
+}
+.form-control{
+  width: 40% !important;
+}
+th:nth-child(1) {
+    width: 26%;
+}
+table.table thead th:after{
+  content: "\21C5";
+}
+.alert-success, .alert-danger{
+  display: none;
+}
+
+.TicTacToeApp {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.TicTacToeApp header {
+  display: block;
+  margin: 2em 0em;
+}
+
+body{
+font-family: 'Inter', sans-serif !important;
+}
+.intro-content{
+    background-color: #f4f4f4;
+    background-image: linear-gradient(137deg, #FFFFFF 0%, #f4f4f4 65%);
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.image-nopadding{
+    padding: 0px;
+}
+.alert-sucess, .alert-danger{
+  position: relative;;
+  z-index: 9999;
+}
+.restaurant_value{
+  background-color: #f2f2f2;
+}
+
+/**pagination**/
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
